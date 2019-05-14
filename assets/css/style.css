@@ -91,9 +91,13 @@ header a:hover{
 #boxes p{
     margin: 15px;
 }
+#boxes h4{
+
+    margin-left: 15px;
+}
 
 #boxes h5{
-    margin:15px;
+    margin:1px;
     background-color: #4aaaa5;
     text-align: center;
     color: #ffffff
@@ -149,6 +153,17 @@ input {
 
 input[type = text]{
     height:200px;
+}
+
+.button_1{
+    margin-top:15px;
+    height: 38px;
+    background: #4aaaa5;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+
 }
 footer {
     padding:20px;
