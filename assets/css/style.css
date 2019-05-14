@@ -1,0 +1,164 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0; 
+    background-color: #dddddd;
+
+
+}
+
+.container{
+    width:960px;
+    margin: auto; 
+    overflow: hidden;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+header{
+    background: #ffffff;
+    max-height: 53px;
+    border:#cccccc 2px solid; 
+}
+header h3{
+    width: 150px;
+    height: 35px;
+    background: #4aaaa5;
+    text-align: center;
+    color :#ffffff;
+    
+
+}
+
+
+header a{
+    color: #777777;
+    text-decoration: none;
+    
+    font-size: 12px;
+}
+ 
+
+header li{
+    margin-top:10px;
+    float : left;
+    display: inline-table;
+    padding: 0 20px 0 20px;  
+}
+header #name{
+    float: left;
+
+}
+
+
+
+header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+
+header .highlight, header .current a{
+    color:orange; 
+    font-weight: bold; 
+}
+
+header a:hover{
+    color:orange;
+    
+}
+
+#boxes {
+    margin:auto;
+    width: 960px;
+    height:auto;
+    background-color: #ffffff;
+}
+#boxes h3{
+    color:#4aaaa5;
+    margin-left:15px;
+}
+#boxes img{
+    width:250px;
+    margin-left: 15px;
+    padding: 15px;
+    float: left;
+}
+
+#boxes p{
+    margin: 15px;
+}
+
+#boxes h5{
+    margin:15px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff
+}
+#boxes form{
+    margin:20px;
+}
+
+#boxes .box1{
+    float:left;
+    padding: 15px;
+    min-width: 350px;
+    min-height: 200px;
+    background: url("../images/im1.jpeg") no-repeat;
+    margin : 15px;
+
+}
+#boxes .box2{
+    float: right;
+    padding:15px;
+    min-width: 350px;
+    min-height: 200px;
+    background: url("../images/im2.jpeg") no-repeat;
+    margin : 15px;
+}
+#boxes .box3{
+    float: left;
+    padding:15px;
+    min-width: 350px;
+    min-height: 200px;
+    background: url("../images/im3.jpg") no-repeat -200px -100px;
+    margin : 15px;
+}
+#boxes .box4{
+    float: right;
+    padding:15px;
+    min-width: 350px;
+    min-height: 200px;
+    background: url("../images/im4.jpg") no-repeat -300px -50px;
+    margin : 15px;
+}
+#boxes .box5{
+    float: left;
+    padding:15px;
+    min-width: 350px;
+    min-height: 200px;
+    background: url("../images/im5.jpg") no-repeat -200px -100px;
+    margin : 15px;
+}
+input {
+    width:100%;
+}
+
+input[type = text]{
+    height:200px;
+}
+footer {
+    padding:20px;
+    margin-top:20px;
+    color : #ffffff;
+    text-align: center;
+    background-color:#666666;
+    border-top: #4aaaa5 10px solid;
+    
+}
+
+
+
