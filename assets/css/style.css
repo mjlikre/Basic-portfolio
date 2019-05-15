@@ -97,10 +97,14 @@ header a:hover{
 }
 
 #boxes h5{
+    font-size:20;
+    position: absolute;
+    z-index: 1;
     margin:1px;
     background-color: #4aaaa5;
     text-align: center;
     color: #ffffff
+    
 }
 #boxes form{
     margin:20px;
