@@ -1,3 +1,4 @@
+/* general style for the body */
 body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
@@ -6,6 +7,8 @@ body{
 
 
 }
+/* general style in th container, included in header and in the general information section
+i think later the header tag overwrites some of this stuff */
 
 .container{
     width:960px;
@@ -17,6 +20,7 @@ ul {
     margin: 0;
     
 }
+/* styling in header in general */
 
 header{
     background: #ffffff;
@@ -37,7 +41,7 @@ header h3{
 header a{
     color: #777777;
     text-decoration: none;
-    
+
     font-size: 12px;
 }
  
@@ -54,7 +58,7 @@ header #name{
 }
 
 
-
+/* the basic navigation bar */
 header nav{
     float: right;
     margin-top: 10px;
@@ -70,6 +74,8 @@ header a:hover{
     color:orange;
     
 }
+
+/* styling for the body, the boxes, etc. */
 
 #boxes {
     margin:auto;
@@ -151,13 +157,19 @@ header a:hover{
     background: url("../images/im5.jpg") no-repeat -200px -100px;
     margin : 15px;
 }
+/* input info styling on contacts page, the first two input */
+
 input {
     width:100%;
 }
 
+/* last input info box on on contacts page, message box */
+
 input[type = text]{
     height:200px;
 }
+
+/* submit button, basic dimention and color */
 
 .button_1{
     margin-top:15px;
@@ -169,6 +181,7 @@ input[type = text]{
     color: #ffffff;
 
 }
+/* sticky footer */
 footer {
     position: absolute;
     left: 0 ; right : 0; bottom: 0;
