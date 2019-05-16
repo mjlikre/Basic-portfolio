@@ -170,6 +170,8 @@ input[type = text]{
 
 }
 footer {
+    position: absolute;
+    left: 0 ; right : 0; bottom: 0;
     padding:20px;
     margin-top:20px;
     color : #ffffff;
